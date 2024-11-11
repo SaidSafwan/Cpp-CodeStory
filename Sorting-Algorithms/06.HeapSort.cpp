@@ -27,6 +27,7 @@ void heapSort(vector<int>& arr) {
     while (n > 0) {
         n = n - 1;
         swap(arr[0], arr[n]);
+        
         int parentindex = 0;
         int leftchildidx = (2 * parentindex) + 1;
         int Rightchildidx = (2 * parentindex) + 2;
