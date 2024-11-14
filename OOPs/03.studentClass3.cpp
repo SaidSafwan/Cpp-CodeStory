@@ -31,6 +31,7 @@ class student{
 
         void display(){
             cout<<age << " " << rollNum <<endl;
+            cout<<"this : "<<this<<endl;
         }
 
         int getAge(){
